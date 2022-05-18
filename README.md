@@ -1,5 +1,7 @@
 ## Run instructions
-**LINUX or MAC** : To run this program, open up a terminal, navigate to your directory, clone this repo then type `pipenv run python3 main.py`
+1. Make sure you have pipenv installed. `pip3 install --user pipenv`
+2. If you want to use virtualenv, there is a requirements file.
+3. **LINUX or MAC** : To run this program with pipenv, open up a terminal, navigate to your directory, clone this repo then type `pipenv run python3 main.py`
 
 ## Unit testing
 `pipenv run pytest test_connect_four.py`
