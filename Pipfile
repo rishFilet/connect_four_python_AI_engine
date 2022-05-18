@@ -9,6 +9,7 @@ numpy = "*"
 [dev-packages]
 autopep8 = "*"
 black = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.8"

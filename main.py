@@ -18,7 +18,7 @@ if __name__ == '__main__':
     while not game_over:
         print(curr_board)
         print("  1  2  3  4  5  6  7") # Column labels
-        updated_board = None
+        updated_board = None # Used as evaluation if the move is valid on drop_piece
         while updated_board is None:
             while True:
                 if curr_player.is_bot:
