@@ -1,7 +1,10 @@
 ## Run instructions
 1. Make sure you have pipenv installed. `pip3 install --user pipenv`
 2. If you want to use virtualenv, there is a requirements file.
-3. **LINUX or MAC** : To run this program with pipenv, open up a terminal, navigate to your directory, clone this repo then type `pipenv run python3 main.py`
+3. **LINUX or MAC** : To run this program with pipenv:
+    1. Open up a terminal, navigate to your directory
+    2. Clone this repo then type `pipenv install` to install the packages to your environment
+    3. Then type `pipenv run python3 main.py` to start the game
 
 ## Unit testing
 `pipenv run pytest test_connect_four.py`
