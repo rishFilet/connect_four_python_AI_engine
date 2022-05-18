@@ -1,5 +1,5 @@
 ## Run instructions
-`pipenv run python3 main.py`
+**LINUX or MAC** : To run this program, open up a terminal, navigate to your directory, clone this repo then type `pipenv run python3 main.py`
 
 ## Unit testing
 `pipenv run pytest test_connect_four.py`
